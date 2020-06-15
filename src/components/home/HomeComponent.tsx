@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { PropsFromRedux } from "./HelloContainer";
+import { PropsFromRedux } from "./HomeContainer";
 
 type HelloProps = PropsFromRedux;
 
