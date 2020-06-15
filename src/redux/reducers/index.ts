@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 import { RootState } from "../state";
-import helloReducer from "./helloReducer";
+import homeReducer from "./homeReducer";
 
 export default combineReducers<RootState>({
-  helloState: helloReducer,
+  homeState: homeReducer,
 });

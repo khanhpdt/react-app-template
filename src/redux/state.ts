@@ -1,5 +1,5 @@
-import { HelloState } from "./reducers/helloReducer";
+import { HomeState } from "./reducers/homeReducer";
 
 export interface RootState {
-  readonly helloState: HelloState;
+  readonly homeState: HomeState;
 }

@@ -1,10 +1,10 @@
 import { RootState } from "../../redux/state";
-import { sayHello } from "../../redux/actions/helloActions";
+import { sayHello } from "../../redux/actions/homeActions";
 import { connect, ConnectedProps } from "react-redux";
 import HelloComponent from "./HomeComponent";
 
 const mapStateToProps = (state: RootState) => ({
-  serverResponse: state.helloState.serverResponse,
+  serverResponse: state.homeState.serverResponse,
 });
 
 const mapDispatchToProps = {

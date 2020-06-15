@@ -1,10 +1,10 @@
 import { call, put, takeLatest } from "redux-saga/effects";
-import * as helloApi from "../../api/helloApi";
+import * as helloApi from "../../api/homeApi";
 import {
   SAY_HELLO,
   sayHelloFailed,
   sayHelloSuccess,
-} from "../actions/helloActions";
+} from "../actions/homeActions";
 
 function* sayHello() {
   try {
@@ -19,6 +19,6 @@ function* watchSayHello() {
   yield takeLatest(SAY_HELLO, sayHello);
 }
 
-export default function helloSagas() {
+export default function homeSagas() {
   return [watchSayHello()];
 }

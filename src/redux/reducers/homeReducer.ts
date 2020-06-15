@@ -1,15 +1,15 @@
-import { HelloActions, SAY_HELLO_SUCCESS } from "../actions/helloActions";
+import { HomeActions, SAY_HELLO_SUCCESS } from "../actions/homeActions";
 import { Reducer } from "redux";
 
-export interface HelloState {
+export interface HomeState {
   readonly serverResponse: string;
 }
 
-const initialState: HelloState = {
+const initialState: HomeState = {
   serverResponse: "",
 };
 
-const helloReducer: Reducer<HelloState, HelloActions> = (
+const homeReducer: Reducer<HomeState, HomeActions> = (
   state = initialState,
   action
 ) => {
@@ -24,4 +24,4 @@ const helloReducer: Reducer<HelloState, HelloActions> = (
   }
 };
 
-export default helloReducer;
+export default homeReducer;

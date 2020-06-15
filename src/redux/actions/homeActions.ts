@@ -38,4 +38,4 @@ export function sayHelloFailed(): SayHelloFailed {
   };
 }
 
-export type HelloActions = SayHello | SayHelloSuccess | SayHelloFailed;
+export type HomeActions = SayHello | SayHelloSuccess | SayHelloFailed;
