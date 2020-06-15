@@ -10,7 +10,12 @@ function HelloComponent({ sayHello, serverResponse }: HelloProps): JSX.Element {
 
   const msg = serverResponse ? serverResponse : "Pinging server...";
 
-  return <div>{msg}</div>;
+  return (
+    <article className="message">
+      <div className="message-header">Hello World</div>
+      <div className="message-body">{msg}</div>
+    </article>
+  );
 }
 
 export default HelloComponent;
