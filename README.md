@@ -11,13 +11,13 @@ It contains the following setups:
 - react-router
 - axios
 
-It also includes the HomeComponent as the starting point to implement your components.
+It also includes the HomeComponent as the starting point to implement new components.
 
 The redux related things (e.g., store, state, sagas) are placed inside the `redux` folder.
 
 ## To start using this template
 
-- Copy this folder to your target project folder
+- Copy this folder to the target project folder
 
 ```bash
 cp . -a target_folder/
@@ -25,4 +25,4 @@ cp . -a target_folder/
 
 - Make sure all needed files are copied. Check for the files with prefix "." (e.g., .eslintrs.js, .prettier.js, .gitignore)
 - Remove .git folder
-- Initialize new git repository in your target folder
+- Initialize new git repository in the target folder
